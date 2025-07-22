@@ -5,7 +5,7 @@ st.set_page_config(page_title="🐻 Gấu cute kéo chữ", layout="wide")
 
 st.title("Tặng b Manh xinh gái nè")
 
-with open("gau.png", "rb") as image_file:
+with open("Conheo.png", "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read()).decode()
 
 image_url = f"data:image/png;base64,{encoded_string}"
@@ -46,7 +46,7 @@ body {{
 
 <div id="bear-container">
   <img id="bear-img" src="{image_url}" />
-  Con cá đáng yêu tới đây~~~
+  Hello b Manh~~~
   Chúc b Manh một ngày tốt lành! 
 </div>
 """, unsafe_allow_html=True)
