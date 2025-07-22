@@ -39,8 +39,8 @@ body {{
 }}
 
 #bear-img {{
-  height: 70px;
-  margin-left: 10px;
+  height: 210px;
+  margin-left: 30px;
 }}
 </style>
 
