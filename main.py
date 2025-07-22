@@ -17,7 +17,7 @@ body {{
   color: #ff0000 !important;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Comic Sans MS, sans-serif;
 }}
 
 @keyframes move {{
