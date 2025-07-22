@@ -21,11 +21,14 @@ body {{
 }}
 
 @keyframes move {{
-  50% {{ transform: translateX(100%); }}
-  15% {{ transform: translateY(100%); }}
-  25% {{ transform: translateX(-100%); }}
-  25% {{ transform: translateY(-100%); }}
+  0% {{ transform: translateX(100%); }}
   50% {{ transform: translateX(-100%); }}
+  15% {{ transform: translateY(-100%); }}
+  15% {{ transform: translateX(-100%); }}
+  20% {{ transform: translateY(100%); }}
+  25% {{ transform: translateX(-100%); }}
+  100% {{ transform: translateX(100%); }}
+ 
 }}
 
 #bear-container {{
