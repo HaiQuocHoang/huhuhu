@@ -13,7 +13,7 @@ image_url = f"data:image/png;base64,{encoded_string}"
 st.markdown(f"""
 <style>
 body {{
-  background-color: #ffd8f0 !important;
+  background-color: #ffffff !important;
   color: #ff0000 !important;
   margin: 0;
   padding: 0;
