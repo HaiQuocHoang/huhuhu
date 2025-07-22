@@ -27,7 +27,6 @@ body {{
   15% {{ transform: translateX(-100%); }}
   20% {{ transform: translateY(100%); }}
   25% {{ transform: translateX(-100%); }}
-  100% {{ transform: translateX(100%); }}
  
 }}
 
