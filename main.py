@@ -21,7 +21,8 @@ body {{
 }}
 
 @keyframes move {{
-  0% {{ transform: translateX(100%); }}
+  50% {{ transform: translateX(100%); }}
+  75% {{ transform: translateY(100%); }}
   25% {{ transform: translateX(-100%); }}
   25% {{ transform: translateY(-100%); }}
   50% {{ transform: translateX(-100%); }}
