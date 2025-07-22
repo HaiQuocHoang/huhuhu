@@ -3,7 +3,7 @@ import base64
 
 st.set_page_config(page_title="🐻 Gấu cute kéo chữ", layout="wide")
 
-st.title("Tặng b Hải nè")
+st.title("Tặng b Manh xinh gái nè")
 
 with open("gau.png", "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read()).decode()
@@ -13,8 +13,8 @@ image_url = f"data:image/png;base64,{encoded_string}"
 st.markdown(f"""
 <style>
 body {{
-  background-color: #000000 !important;
-  color: #ff69b4 !important;
+  background-color: #ffd8f0 !important;
+  color: #ff0000 !important;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -28,7 +28,7 @@ body {{
 #bear-container {{
   font-size: 36px;
   font-weight: bold;
-  color: #ff69b4;
+  color: #ff0000;
   animation: move 10s linear infinite;
   white-space: nowrap;
   overflow: hidden;
@@ -46,7 +46,7 @@ body {{
 
 <div id="bear-container">
   <img id="bear-img" src="{image_url}" />
-  Chú gấu đáng yêu tới đây~~~
-  Chúc b Hải buổi sáng tốt lành! 
+  Con cá đáng yêu tới đây~~~
+  Chúc b Manh một ngày tốt lành! 
 </div>
 """, unsafe_allow_html=True)
