@@ -27,7 +27,10 @@ body {{
   15% {{ transform: translateX(-100%); }}
   20% {{ transform: translateY(100%); }}
   25% {{ transform: translateX(-100%); }}
- 
+ 15% {{ transform: translateY(100%); }}
+  15% {{ transform: translateX(100%); }}
+  20% {{ transform: translateY(-100%); }}
+  25% {{ transform: translateX(100%); }}
 }}
 
 #bear-container {{
